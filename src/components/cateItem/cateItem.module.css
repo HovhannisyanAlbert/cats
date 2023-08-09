@@ -1,0 +1,32 @@
+.cateItem {
+  display: flex;
+}
+
+.cateImage {
+  display: flex;
+  flex-direction: column;
+}
+
+.cateContainer {
+  display: flex;
+  flex-wrap: wrap;
+
+  width: 600px;
+  gap: 8px;
+}
+
+.btnMore {
+  border: none;
+  cursor: pointer;
+  background-color: #00ffff;
+  border-radius: 8px;
+  font-size: 20px;
+  width: 150px;
+  height: 48px;
+}
+
+.bttnContainer {
+  width: 500px;
+  display: flex;
+  justify-content: center;
+}

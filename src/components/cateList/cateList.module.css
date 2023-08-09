@@ -1,0 +1,39 @@
+.cateList{
+    width: 250px;
+    height: 100%;
+    background-color: #00FFFF;    
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding-top: 20px;
+    display: flex;
+  
+    
+}
+
+.cateName{
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 30px;
+    color:#4B0082;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+ 
+}
+
+.cateName:hover{
+    text-decoration: underline;
+}
+
+.cateItems{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.defaultCate{
+    display: flex;
+    flex-wrap: wrap;
+    border:1px solid;
+    margin-left: 500px;
+}

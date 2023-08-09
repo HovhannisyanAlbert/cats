@@ -1,0 +1,17 @@
+.cat{
+    display: flex;
+    justify-content: space-around;   
+}
+
+.defaultCatStyle{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 150px;
+    width: 800px;
+    margin-left: 300px;
+}
+
+.noneDefault{
+    display: none;
+}
